@@ -14,8 +14,8 @@ const mysql = require("mysql2");
 const sequelize = require("sequelize");
 
 var db = require("./models/index.js");
-//app.use(routes); 
-require("./routes/api")(app, db);
+app.use(routes); 
+//require("./routes/api")(app, db);
 
 db.sequelize.sync().then(function() {
 app.listen(PORT, function(){
