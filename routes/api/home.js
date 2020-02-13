@@ -1,15 +1,15 @@
-const router = require("express").Router(); 
-const housesController = require("../../controllers/homescontrollers");
+//const router = require("express").Router(); 
+//const homesController = require("../../controllers/homescontrollers");
 
 
-router.route("/")
-.get(housesController.findAll)
-.post(housesController.create); 
+//router.route("/")
+//.get(homesController.findAll)
+//.post(homesController.create); 
 
-router 
- .route("/:id")
- .get(housesController.findById)
- .put(housesController.update)
- .delete(housesController.remove);
+//router 
+ //.route("/:id")
+ //.get(homesController.findById)
+ //.put(homesController.update)
+ //.delete(homesController.remove);
 
- module.exports = router;
+ //module.exports = router;
