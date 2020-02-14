@@ -1,4 +1,8 @@
 .header-block {
-  background-color: #000280;
+  background-color: #008064;
+  border-radius: 5px solid;
+  padding: 10px;
+  margin: 10px;
+  font-size: 16rem;
 }
 /*# sourceMappingURL=header.css.map */
