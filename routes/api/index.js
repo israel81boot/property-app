@@ -1,7 +1,16 @@
-//const router = require("express").Router();
-//const housesRoutes = require("./house");
+var mysql = require("mysql");
 
-// house routes
-//router.use("/house", housesRoutes);
+const connection = require("config.json");
 
-//module.exports = router;
+
+// Make connection.
+connection.connect(function (err) {
+    if (err) {
+        console.error("error connecting: " + err.stack);
+        return;
+    }
+    console.log("connected as id " + connection.threadId);
+});
+
+// Export connection for our ORM to use.
+module.exports = connection;

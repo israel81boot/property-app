@@ -1,6 +1,6 @@
 const router = require("express").Router(); 
 const homesController = require("../../controllers/homescontrollers");
-
+//const connect = require("config.json");
 
 router.route("/")
 .get(homesController.findAll)

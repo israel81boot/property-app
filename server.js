@@ -11,7 +11,7 @@ app.use(express.static("./client/public"));
 
 app.use(express.urlencoded({extended:true})); 
 app.use(express.json());
-const mysql = require("mysql2"); 
+
 const sequelize = require("sequelize");
 
 var db = require("./models/index.js");

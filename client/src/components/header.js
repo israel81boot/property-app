@@ -6,11 +6,13 @@ class Header extends Component {
     render() {
     return(
         <div className="header-block">  
-        <div class="control">
-    <textarea class="textarea is-large" placeholder="WELCOME TO PROPERTY "></textarea>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+   welcome to property
+  </div>
+</nav>
   </div>
       
-        </div>
     )
 
     }
