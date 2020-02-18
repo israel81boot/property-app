@@ -37,8 +37,8 @@ class Card extends Component {
                                     </div>
                                     <div class="media-content">
                                         <p class="title is-4">{house.adress}</p>
-                                        <p class="subtitle is-6">Bed: {house.bed}</p>
-                                        <button onClick={() => this.add(house)}>Add</button>
+                
+                                        <button onClick={() => this.add(house)}>view</button>
                                         
                                     </div>
                                 </div>
