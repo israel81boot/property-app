@@ -12,9 +12,7 @@ class Header extends Component {
   </div>
 </nav>
   </div>
-      
-    )
-
-    }
+)
+}
 } 
 export default Header;
