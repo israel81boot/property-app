@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,AAAA,KAAK,CAAC;EACN,MAAM,EAAE,GAAG;EACX,OAAO,EAAE,GAAG;CAGX",
     "sources": [
         "card.scss"
     ],
