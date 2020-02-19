@@ -1,5 +1,10 @@
-#card {
+.card {
   margin: 5px;
   padding: 5px;
+}
+
+.button {
+  float: right;
+  background-color: 0;
 }
 /*# sourceMappingURL=card.css.map */

@@ -1,8 +1,10 @@
-.header-block {
+.header {
   background-color: #008064;
-  border-radius: 5px solid;
-  padding: 10px;
-  margin: 10px;
-  font-size: 3rem;
+  border-radius: 2px;
+  float: right;
+}
+
+.button {
+  float: right;
 }
 /*# sourceMappingURL=header.css.map */

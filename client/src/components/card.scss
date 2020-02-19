@@ -1,6 +1,12 @@
-#card {
+.card{
 margin: 5px;
 padding: 5px;
 
+};
 
-}
+.button{ 
+ float: right; 
+ background-color: green($color: #000000);
+
+
+}; 

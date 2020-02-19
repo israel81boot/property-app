@@ -36,12 +36,13 @@ class Card extends Component {
                                             <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image" />
                                         </figure>
                                     </div>
-                                    <div class="media-content">
+                                    <div class="media-content"> 
+                                    
                                         <p class="title is-4">{house.adress}</p>
                 
-                                        <button onClick={() => this.add(house)}>view</button>
-                                        
-                                    </div>
+                                        <button class= "button" onClick={() => this.add(house)}>view</button>
+                                      </div>  
+                                    
                                 </div>
                             </div>
                         </div>
