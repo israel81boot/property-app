@@ -1,7 +1,9 @@
 .header {
-  background-color: #008064;
-  border-radius: 2px;
-  float: right;
+  background: green;
+  padding: 50px;
+  margin: 10px;
+  border-radius: 5px solid;
+  font-family: "";
 }
 
 .button {

@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-import axios from "axios";
+import axios from "axios"; 
+
+
 class Card extends Component {
 
     state = {
@@ -13,7 +15,7 @@ class Card extends Component {
         });
     }
 
-    add = (house) => {
+    More = (house) => {
         console.log("click: ", house);
     }
 
@@ -40,7 +42,7 @@ class Card extends Component {
                                     
                                         <p class="title is-4">{house.adress}</p>
                 
-                                        <button class= "button" onClick={() => this.add(house)}>view</button>
+                                        <button class= "button is-primary is-rounded" onClick={() => this.More(house)}>more</button>
                                       </div>  
                                     
                                 </div>

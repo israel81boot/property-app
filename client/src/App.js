@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import logo from './logo.svg';
 import Header from "./components/header"; 
-import Subheader from "./components/subheader"
+//import Subtitle from "./components/subheader"
 import Card from "./components/card"; 
 //import Input from "./components/input";
 import Footer from "./components/footer";
@@ -15,7 +15,7 @@ class App extends Component {
       <div className="App">
         <div id="bg"></div>
         <Header /> 
-        <Subheader />
+        <subtitle />
           <Card /> 
  
         <Footer />
