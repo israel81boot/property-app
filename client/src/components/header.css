@@ -1,9 +1,13 @@
 .header {
-  background: green;
+  background: #00d1b2;
   padding: 50px;
   margin: 10px;
-  border-radius: 5px solid;
-  font-family: "";
+  border-radius: 10px;
+}
+
+.welcome {
+  font-family: 'Lucida Grande';
+  color: #6947ff;
 }
 
 .button {

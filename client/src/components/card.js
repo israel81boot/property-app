@@ -37,14 +37,13 @@ class Card extends Component {
                                         <figure class="image is-48x48">
                                             <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image" />
                                         </figure>
-                                    </div>
+                                    </div> 
                                     <div class="media-content"> 
-                                    
-                                        <p class="title is-4">{house.adress}</p>
+                                        <p class="title is-6">{house.adress}</p>
                 
                                         <button class= "button is-primary is-rounded" onClick={() => this.More(house)}>more</button>
-                                      </div>  
-                                    
+                                      
+                                     </div>  
                                 </div>
                             </div>
                         </div>

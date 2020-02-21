@@ -8,7 +8,7 @@ class Header extends Component {
       <div className="header-block"> 
        <div className="header">
          
-            <h1 > welcome to property </h1>
+            <h1 className="welcome"> PROPERTY FOR RENT </h1>
           </div>  
         
          <button class="button is-primary is-rounded navbutton"> Add</button> 

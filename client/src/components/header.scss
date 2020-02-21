@@ -1,13 +1,16 @@
   
     .header{ 
-       background: green;
+       background:#00d1b2;
        padding: 50px;
        margin: 10px;
-       border-radius: 5px solid; 
-      font-family: unit($number: 0);
-     
+       border-radius: 10px; 
 
-    } 
+    }  
+    .welcome{
+     font-family: 'Lucida Grande'; 
+     color: rgb(105, 71, 255);
+
+    }
 
     .button{
       float: right;
