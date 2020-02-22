@@ -8,9 +8,13 @@
 }
 
 .welcome {
-  font-family: 'Lucida Grande';
+  font-family: 'Akronim';
   color: #6947ff;
-  float: right;
+  display: inline-block;
+}
+
+.header-block {
+  background-color: antiquewhite;
 }
 
 .logo {
@@ -20,10 +24,9 @@
 }
 
 .navbutton {
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  text-align: end;
+  position: absolute;
+  top: 130px;
+  left: 80%;
 }
 
 .new-h-input {

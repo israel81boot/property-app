@@ -4,10 +4,6 @@
   background-color: red;
 }
 
-.card-main {
-  max-width: 80vw;
-}
-
 .adress {
   white-space: pre-wrap !important;
   width: 200px !important;

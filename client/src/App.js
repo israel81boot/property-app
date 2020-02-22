@@ -82,6 +82,7 @@ class App extends Component {
         <div id="bg"></div>
         {/* Sending the function Refresh to the header component */}
         <Header user={this.state.user} refresh={this.Refresh} /> 
+        <div className="log-action">
         {this.state.user ? (
             <button className="button is-primary is-rounded action" onClick={this.Logout}>Logout</button>
         ) : (
@@ -91,10 +92,16 @@ class App extends Component {
             )}
           </div>
         )}
+        </div>
         
-        {this.state.isRefresh ? '' : <Card  user={this.state.user} refresh={this.Refresh} />}
- 
-        <Footer  user={this.state.user} />
+        {this.state.isRefresh ? '' : 
+        <div className="houses-list">
+        <Card  user={this.state.user} refresh={this.Refresh} />
+        </div>
+        }
+        <div className="footer-part">
+          <Footer  user={this.state.user} />
+        </div>
 
         {this.state.isLogin ? (
           <div>

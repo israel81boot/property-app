@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import Modal from 'react-bootstrap/Modal';
 
 import axios from "axios";
+import houseImg from './house.png'
 import "./card.css";
 
 
@@ -111,7 +112,7 @@ class Card extends Component {
                                 <div className="media card-box">
                                     <div className="media-left">
                                         <figure className="image is-48x48">
-                                            <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image" />
+                                            <img src={houseImg} alt="Placeholder image" />
                                         </figure>
                                     </div>
                                     <div className="media-content">

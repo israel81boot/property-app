@@ -7,22 +7,31 @@
   height: -moz-fit-content !important;
   min-height: 100px !important;
   // display: flex;
+  // float: left;
 }
 .welcome{
-  font-family: 'Lucida Grande'; 
+  font-family: 'Akronim';
   color: rgb(105, 71, 255);
-  float: right;
+  display: inline-block;
+
+}
+
+.header-block{
+  
+  background-color: antiquewhite;
 }
 
 .logo{
   width: 75px !important;
   height: 75px !important;
   float: left;
+  // display: inline-block;
 }
 
 .navbutton{
-  align-items: flex-end;
-  text-align: end;
+  position: absolute;
+  top: 130px;
+  left: 80%;
 }
 
 .new-h-input{

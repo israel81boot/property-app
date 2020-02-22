@@ -67,8 +67,8 @@ class Header extends Component {
     return (
       <div className="header-block">
         <div className="header">
-          <h1 className="welcome"> PROPERTY FOR RENT </h1>
           <img src={logo} className="logo" />
+          <h1 className="welcome"> PROPERTY FOR RENT </h1>
         </div>
 
         <button className="button is-primary is-rounded navbutton" onClick={this.Add}> Add</button>
