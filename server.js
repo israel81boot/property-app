@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname,'./client/public')));
 
 if(process.env.NODE_ENV === 'production'){
-app.use(express.static("./client/build"));
+app.use(express.static("client/build"));
 }
 //const sequelize = require("sequelize");
 //const route = require("./routes")
