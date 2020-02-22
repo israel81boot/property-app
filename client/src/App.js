@@ -29,7 +29,7 @@ class App extends Component {
         {/* Sending the function Refresh to the header component */}
         <Header refresh={this.Refresh} /> 
 
-          {this.state.isRefresh ? '' : <Card />}
+          {this.state.isRefresh ? '' : <Card refresh={this.Refresh} />}
  
         <Footer />
       </div>
