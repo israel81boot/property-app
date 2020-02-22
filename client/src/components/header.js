@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import logo from "./logo.png";
 import "./header.css";
 import Modal from "react-bootstrap/Modal"; 
+import axios from "axios";
+
 class Header extends Component {
 
   state = {
@@ -12,6 +14,10 @@ class Header extends Component {
     price: '',
     author: ''
   }
+
+  // componentDidMount(){
+    
+  // }
 
   Add = () => {
     console.log("click"); 
@@ -28,6 +34,21 @@ class Header extends Component {
     }
 
     console.log(newHouseData);
+
+    axios.post("/api/new-house", newHouseData).then(res =>{
+      if(res.statusText == "OK"){
+        this.props.refresh();
+        this.setState({
+          adress: '',
+          bath: 0,
+          bed: 0,
+          price: '',
+          author: '',
+          isAddHouse: false
+        });
+      }
+      console.log(res);
+    })
       
   }
 
@@ -50,7 +71,7 @@ class Header extends Component {
           <img src={logo} className="logo" />
         </div>
 
-        <button class="button is-primary is-rounded navbutton" onClick={this.Add}> Add</button>
+        <button className="button is-primary is-rounded navbutton" onClick={this.Add}> Add</button>
 
                   {/* Add new house */}
                   {this.state.isAddHouse ? (

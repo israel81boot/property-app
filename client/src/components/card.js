@@ -32,23 +32,23 @@ class Card extends Component {
                 return (
                     <div className="card-box" key={index}>
 
-                        <div class="card">
-                            {/* <div class="card-image">
-                                <figure class="image is-4by3 is-150x150">
+                        <div className="card">
+                            {/* <div className="card-image">
+                                <figure className="image is-4by3 is-150x150">
                                     <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image" />
                                 </figure>
                             </div> */}
-                            <div class="card-content">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <figure class="image is-48x48">
+                            <div className="card-content">
+                                <div className="media">
+                                    <div className="media-left">
+                                        <figure className="image is-48x48">
                                             <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image" />
                                         </figure>
                                     </div>
-                                    <div class="media-content">
-                                        <p class="title is-6">{house.adress}</p>
+                                    <div className="media-content">
+                                        <p className="title is-6">{house.adress}</p>
 
-                                        <button class="button is-primary is-rounded" onClick={() => this.More(house)}>more</button>
+                                        <button className="button is-primary is-rounded" onClick={() => this.More(house)}>more</button>
 
                                     </div>
                                 </div>

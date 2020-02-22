@@ -9,14 +9,27 @@ import './App.css';
 import axios from 'axios';
 class App extends Component {
 
+  state = {
+    isRefresh : false,
+  }
+
+  Refresh = () =>{
+    this.setState({ isRefresh : true });
+
+    setTimeout( ()=>{
+      this.setState({ isRefresh : false });
+    }, 500);
+  }
+
   render() {
 
     return (
       <div className="App">
         <div id="bg"></div>
-        <Header /> 
-        <subtitle />
-          <Card /> 
+        {/* Sending the function Refresh to the header component */}
+        <Header refresh={this.Refresh} /> 
+
+          {this.state.isRefresh ? '' : <Card />}
  
         <Footer />
       </div>

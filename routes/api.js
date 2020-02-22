@@ -6,6 +6,11 @@ function Api(app, db){
          res.json(result);
       });
    });
+   app.post("/api/new-house", (req, res)=>{
+      db.house.create(req.body).then((result) =>{
+         res.json(result);
+      })
+   } )
 }
 
 module.exports = Api;
