@@ -4,7 +4,19 @@
   background-color: red;
 }
 
-.button {
-  float: right;
+.card-main {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.card-box {
+  max-width: 300px !important;
+  height: 300px !important;
+  margin: 10px;
 }
 /*# sourceMappingURL=card.css.map */

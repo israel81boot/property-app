@@ -4,9 +4,19 @@
 background-color: red;
 };
 
-.button{ 
-   float: right;
- 
+// .button{ 
+//    float: right;
+// };
+
+.card-main{
+   display: flex !important;
+   flex-direction: row;
+}
+
+.card-box{
+   max-width: 300px !important;
+   height: 300px !important;
+   margin: 10px;
+}
 
 
-}; 

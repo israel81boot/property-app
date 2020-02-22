@@ -1,19 +1,27 @@
-  
-    .header{ 
-       background:#00d1b2;
-       padding: 50px;
-       margin: 10px;
-       border-radius: 10px; 
 
-    }  
-    .welcome{
-     font-family: 'Lucida Grande'; 
-     color: rgb(105, 71, 255);
+.header {
+  background: #00d1b2;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  height: -moz-fit-content !important;
+  min-height: 100px !important;
+  // display: flex;
+}
+.welcome{
+  font-family: 'Lucida Grande'; 
+  color: rgb(105, 71, 255);
+  float: right;
+}
 
-    }
+.logo{
+  width: 75px !important;
+  height: 75px !important;
+  float: left;
+}
 
-    .button{
-      float: right;
-
-    }
+.navbutton{
+  align-items: flex-end;
+  text-align: end;
+}
 

@@ -1,16 +1,28 @@
 .header {
   background: #00d1b2;
-  padding: 50px;
+  padding: 20px;
   margin: 10px;
   border-radius: 10px;
+  height: -moz-fit-content !important;
+  min-height: 100px !important;
 }
 
 .welcome {
   font-family: 'Lucida Grande';
   color: #6947ff;
+  float: right;
 }
 
-.button {
-  float: right;
+.logo {
+  width: 75px !important;
+  height: 75px !important;
+  float: left;
+}
+
+.navbutton {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-align: end;
 }
 /*# sourceMappingURL=header.css.map */
