@@ -104,7 +104,9 @@ class Card extends Component {
                 return (
                     <div className="card-box" key={index}>
                         <div className="card">
+                        {this.props.user ? (
                         <span className="close-btn" onClick={() =>{ this.delete(house)}}>x</span>
+                        ): ''}
                             <div className="card-content">
                                 <div className="media card-box">
                                     <div className="media-left">
@@ -115,7 +117,10 @@ class Card extends Component {
                                     <div className="media-content">
                                         <p className="title is-6 adress">{house.adress}</p>
                                         <div className="actions">
-                                            <button className="button is-primary is-rounded action" onClick={() => this.Edit(house)}>Edit</button>
+                                           {this.props.user ? (
+                                                <button className="button is-primary is-rounded action" onClick={() => this.Edit(house)}>Edit</button>
+                                           ) : ''}
+
                                             <button className="button is-primary is-rounded action" onClick={() => this.More(house)}>more</button>
                                         </div>
                                     </div>

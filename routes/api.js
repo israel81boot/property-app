@@ -1,5 +1,6 @@
 
 function Api(app, db){
+   // ---------------House Routes------------//
    // getting all data
    app.get("/api/all", (req, res)=>{
       db.house.findAll({}).then((result)=>{
@@ -26,7 +27,25 @@ function Api(app, db){
       db.house.destroy({where:{id : selectedID}}).then((result)=>{
          res.json(result);
       })
-   })
+   });
+   // ----------------------------------//
+
+   // -------------User Route----------//
+   // app.get("/api/all-users", (req, res)=>{
+   //    db.user.findAll({}).then((result)=>{
+   //       res.json(result);
+   //    })
+   // });
+
+   app.post("/api/login", (req, res)=>{
+      db.user.findOne({where: {username: req.body.username, userpassword: req.body.userpassword}}).then(result =>{
+         // console.log(result);
+         if(result){
+            result.userpassword = '';
+         }
+         res.json(result);
+      })
+   });
 }
 
 module.exports = Api;

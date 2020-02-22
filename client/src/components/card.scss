@@ -9,10 +9,7 @@ background-color: red;
 // }
 
 .card-main{
-   display: flex !important;
-   flex-direction: row;
    max-width: 80vw;
-   overflow-wrap: normal;
 }
 
 .adress{
@@ -23,8 +20,9 @@ background-color: red;
 .card-box{
    max-width: 400px !important;
    min-width: 300px !important;
+   // height: 150px;
    margin: 10px;
-   // display: flex;
+   display: inline-block;
    flex-wrap: nowrap;
 }
 
@@ -48,6 +46,10 @@ background-color: red;
    padding: 0;
    border-radius: 50%;
    cursor: pointer;
+}
+
+.card-content{
+   min-height: 240px !important;
 }
 
 
