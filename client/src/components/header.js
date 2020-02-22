@@ -5,12 +5,41 @@ import Modal from "react-bootstrap/Modal";
 class Header extends Component {
 
   state = {
-    isAddHouse: false
+    isAddHouse: false,
+    adress: '',
+    bath: 0,
+    bed: 0,
+    price: '',
+    author: ''
   }
 
   Add = () => {
     console.log("click"); 
     this.setState({isAddHouse : true});
+  }
+
+  Submit = () => {
+    var newHouseData = {
+      adress: this.state.adress,
+      bath: Number(this.state.bath),
+      bed: Number(this.state.bed),
+      price: Number(this.state.price),
+      author: this.state.author
+    }
+
+    console.log(newHouseData);
+      
+  }
+
+  HandleChange = event =>{
+    // console.log(event.target.name);
+    var name = event.target.name;
+    var value = event.target.value;
+
+    this.setState({
+      [name]: value
+    })
+
   }
 
   render() {
@@ -32,12 +61,22 @@ class Header extends Component {
                         dialogClassName="modal-90w" aria-labelledby="example-custom-modal-styling-title">
                         <Modal.Header closeButton>
                             <Modal.Title id="example-custom-modal-styling-title">
-                                Details
+                                New House
                             </Modal.Title>
                         </Modal.Header>
                         <Modal.Body>
                             <div>
-                                open
+                              <p className="new-h-label">Adress:</p>
+                              <input className="new-h-input" type="text" name="adress" onChange={this.HandleChange} value={this.state.adress} />
+                              <p className="new-h-label">Number of Bathroom:</p>
+                              <input className="new-h-input" type="number" name="bath" onChange={this.HandleChange} value={this.state.bath} />  
+                              <p className="new-h-label">Number of Bedroom:</p>
+                              <input className="new-h-input" type="number" name="bed" onChange={this.HandleChange} value={this.state.bed} /> 
+                              <p className="new-h-label">Price:</p>
+                              <input className="new-h-input" type="number" name="price" onChange={this.HandleChange} value={this.state.price} /> 
+                              <p className="new-h-label">Author:</p>
+                              <input className="new-h-input" type="text" name="author" onChange={this.HandleChange} value={this.state.author} />
+                              <button onClick={this.Submit}>Submit</button>
                             </div>
                         </Modal.Body>
                     </Modal>
