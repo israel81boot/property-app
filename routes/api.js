@@ -31,12 +31,7 @@ function Api(app, db){
    // ----------------------------------//
 
    // -------------User Route----------//
-   // app.get("/api/all-users", (req, res)=>{
-   //    db.user.findAll({}).then((result)=>{
-   //       res.json(result);
-   //    })
-   // });
-
+  
    app.post("/api/login", (req, res)=>{
       db.user.findOne({where: {username: req.body.username, userpassword: req.body.userpassword}}).then(result =>{
          // console.log(result);
