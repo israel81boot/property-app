@@ -43,4 +43,17 @@
 .card-content {
   min-height: 240px !important;
 }
+
+.more {
+  font-size: x-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.addChange {
+  border: medium;
+  padding: 5px;
+  margin: 5px;
+  font-size: x-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 /*# sourceMappingURL=card.css.map */
