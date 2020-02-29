@@ -151,7 +151,7 @@ class Card extends Component {
                             <div >
                                 {/* <img src={this.state.selectedHouse.image} width="150px" height="150px" alt="house img" /> */}
                                 <h1 className= "more"> Beds:  {this.state.selectedHouse.bed} </h1>
-                                <h2 className= "more">bath: {this.state.selectedHouse.bath} </h2>
+                                <h2 className= "more">baths: {this.state.selectedHouse.bath} </h2>
                                 <h3 className= "more">Price: {this.state.selectedHouse.price}$ </h3>
                                 <h4 className= "more">Adress: {this.state.selectedHouse.adress} </h4>
                                 <h4 className= "more"> Author: {this.state.selectedHouse.author} </h4>
@@ -176,7 +176,7 @@ class Card extends Component {
                             <div>
                                 {/* <img src={this.state.selectedHouse.image} width="150px" height="150px" alt="house img" /> */}
                                 <h4 className= "addChange"> Beds:<input type="number"  name='bed' onChange={this.HandleChange} value={this.state.bed}/>  </h4>
-                                <h2 className= "addChange">Bath:<input type="number"  name='bath' onChange={this.HandleChange} value={this.state.bath} /> </h2>
+                                <h2 className= "addChange">Baths:<input type="number"  name='bath' onChange={this.HandleChange} value={this.state.bath} /> </h2>
                                 <h3 className= "addChange">Price:<input type="number"  name='price' onChange={this.HandleChange} value={this.state.price} />$</h3>
                                 <h4 className= "addChange">Adress:<input type="text"  name='adress' onChange={this.HandleChange} value={this.state.adress} /></h4>
                                 <h4 className= "addChange">Author: <input type="text"  name='author' onChange={this.HandleChange} value={this.state.author} /></h4>
