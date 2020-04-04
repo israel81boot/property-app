@@ -11,6 +11,6 @@ APP PROPERTY, in an application which  can useful for rental purpose in real sta
 
  https://rent-a-house.herokuapp.com/
 
- ![](./client/src/images/rent1)
+ ![picture](./client/src/%20images/2020-03-13%20(1).png)
 
 
