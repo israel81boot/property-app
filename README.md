@@ -1,7 +1,7 @@
 
 ## OVERVIEW
 
-APP PROPERTY, in an application which  can useful for rental purpose in real state. At the first you can view houses rental available with more detail. At the same you add a house. but for to delete or edite a house you have to login.
+APP PROPERTY, in an application which  can be useful for rental purpose in real state. At the first page, you can view  rental houses available with more detail. At the same page you add a house. but for to delete or edite a house you have to login.
 
 
 ## Materials 
@@ -12,6 +12,6 @@ APP PROPERTY, in an application which  can useful for rental purpose in real sta
  https://rent-a-house.herokuapp.com/
 
 ## Image
- ![](./client/src/images/2020-03-13(1)%20.png)
+ ![picture](client/src/images/2020-03-13(1)%20.png)
 
 
