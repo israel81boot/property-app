@@ -46,7 +46,7 @@
 
 .more {
   font-size: x-large;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
 
 .addChange {
@@ -54,6 +54,6 @@
   padding: 5px;
   margin: 5px;
   font-size: x-large;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
 /*# sourceMappingURL=card.css.map */

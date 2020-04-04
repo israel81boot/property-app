@@ -19,11 +19,6 @@ class App extends Component {
   }
 
   
-  // componentDidMount(){
-  //   axios.get("/api/all-users").then((res)=>{
-  //     console.log(res);
-  //   });
-  // }
 
 
   Refresh = () =>{
@@ -43,8 +38,7 @@ class App extends Component {
   }
 
   Submit = ()=>{
-    // console.log("Username: ", this.state.username);
-    // console.log("UserPassword: ", this.state.userpassword);
+   
     var userData = {
       username: this.state.username,
       userpassword: this.state.userpassword
