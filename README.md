@@ -1,10 +1,10 @@
 
 ## OVERVIEW
 
-APP PROPERTY, in an application which  can be useful for rental purpose in real state. At the first page, you can view  rental houses available with more detail. At the same page you add a house. but for to delete or edite a house you have to login.
+APP PROPERTY, in an application which  can be useful for rental purpose in real state. At the first page, it will you to view  rental houses available and get more detail. At the same page you add a house. but for to delete or edite a house you have to login.
 
 
-## Materials 
+## Technologies 
  A simple full stack application with a front end implemented with React, Bootstrap, and CSS SASS. The backend implemented with Node.js, Mysql with Sequelize. 
 
  ## link  
