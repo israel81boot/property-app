@@ -1,10 +1,10 @@
 
 ## OVERVIEW
 
-APP PROPERTY, is an application built to make renting easier for both tenant and landlord. At the first page you can view houses rental available with detail and add a house if have one. But in order to delete or edite a house you have to login.
+'APP PROPERTY' is an application built to make renting easier for both tenants and landlords. On the first page, you can view rental houses that are available with details and chose one. When using the app, in order to delete or edit, the users must log in.
 
 
-## Technologies 
+## TECHNOLOGIES 
  A simple full stack application with a front end implemented with :
  - React, 
  - Bootstrap,  
@@ -14,21 +14,21 @@ APP PROPERTY, is an application built to make renting easier for both tenant and
  - Mysql  
  - Sequelize.  
 
- ## how to run 
+ ## HOW TO RUN THIS 
  You can run this by tapping Yarn start  
 
-## deployment  
+## DEPLOYMENT   
 - Github 
 - Heroku 
 
- ## link  
+ ## LINK   
 
  https://rent-a-house.herokuapp.com/
 
-## Image
+## IMAGE
  ![Picture](https://github.com/israel81boot/property-app/blob/master/client/src/images/2020-03-13%20(1).png)
 
 
-## Author 
+## AUTHOR
 - Israel Dembele 
 
