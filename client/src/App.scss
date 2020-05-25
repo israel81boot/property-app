@@ -66,4 +66,15 @@
   top: 175px;
   left: 20px;
   width: calc(100vw - 40px);
-}
+} 
+
+@media only screen and ( max-width:500px) { 
+  
+  .header{
+      min-width: 50%;   
+  } 
+  .car-box{
+    min-width:50%;
+  }
+
+} 
